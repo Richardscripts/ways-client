@@ -10,6 +10,10 @@
   margin: auto;
 }
 
+.LoginForm input {
+  margin-bottom: 20px;
+}
+
 .button-wrapper > a {
   color: rgb(46, 140, 216);
   font-weight: bold;

@@ -7,7 +7,6 @@
 
 .tripSearchBar {
   font-size: 20px;
-  font-weight: bold;
   margin-top: 25px;
   margin-bottom: 25px;
   box-sizing: border-box;
@@ -106,7 +105,7 @@ div.bttn:focus {
   padding: 12px 0px;
   color: rgb(230, 31, 130);
   border: 2px solid rgb(230, 31, 130);
-  border-radius: 2px;
+  border-radius: 4px;
   position: relative;
   box-shadow: 0px 2px 4px rgb(195, 195, 195);
 }

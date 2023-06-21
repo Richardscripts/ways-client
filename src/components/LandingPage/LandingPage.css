@@ -107,8 +107,7 @@ section.landing-page::before {
   flex-direction: row;
   justify-content: space-around;
   width: 100vw;
-  font-size: 20px;
-  font-weight: 900;
+  font-size: 18px;
   padding-top: 20px;
 }
 
@@ -118,6 +117,7 @@ section.landing-page::before {
   text-align: center;
   width: 180px;
   background-color: white;
+  border-radius: 4px;
 }
 
 .lets-go-btn:hover {
@@ -125,7 +125,7 @@ section.landing-page::before {
 }
 
 .wrapper hr {
-  border: 1px solid rgb(46, 140, 216);
+  border: 1px solid rgb(227, 227, 227);
 }
 
 .background-image {
@@ -141,6 +141,7 @@ section.landing-page::before {
   height: 100%;
   margin: 0;
   padding: 0;
+  opacity: .8;
 }
 
 body {
@@ -161,6 +162,12 @@ body {
   animation: fadeIn;
   animation-duration: 1.5s;
 }
+
+.zoomInRight {
+  animation: zoomInRight;
+  animation-duration: 3.0s;
+}
+
 
 @media (max-height: 1000px) {
   .background-image {

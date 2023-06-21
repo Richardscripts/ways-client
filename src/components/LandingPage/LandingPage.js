@@ -22,7 +22,7 @@ export default class LandingPage extends Component {
             </div>
             <div className="airplane-bg">
               <img
-                className="airplane-bg zoom"
+                className="airplane-bg zoom zoomInRight"
                 src={Airplane}
                 alt="airplane taking off"
               />

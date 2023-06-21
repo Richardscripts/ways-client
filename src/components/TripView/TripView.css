@@ -38,7 +38,7 @@
   width: 98%;
   word-wrap: break-word;
   position: relative;
-  z-index: 1;
+  z-index: 0;
 }
 
 .edit-stop {

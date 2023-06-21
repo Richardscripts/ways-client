@@ -49,7 +49,7 @@ export default class AddTripForm extends React.Component {
       !this.state.place.coordinates.lng ||
       !this.state.place.coordinates.lat
     ) {
-      this.setState({ error: 'Must select a real place from dropdown list.' });
+      this.setState({ error: 'Please select a place from dropdown list.' });
       return;
     }
 

@@ -2,7 +2,7 @@
   height: 400px;
   width: 315px;
   border-radius: 6px;
-  border: 2px rgb(104, 104, 104) solid;
+  border: 2px rgb(186 186 186) solid;
   overflow: hidden;
   text-align: center;
   display: flex;
@@ -13,7 +13,7 @@
 }
 
 .TripCard:hover {
-  box-shadow: 2px 11px 11px rgb(122, 122, 122);
+  box-shadow: 2px 11px 11px rgb(201, 201, 201);
   border: 2px rgb(219, 219, 219) solid;
 }
 

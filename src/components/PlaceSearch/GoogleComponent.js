@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './style.css';
-const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
+const proxyUrl =
+  'https://enigmatic-everglades-08037-9391af916945.herokuapp.com/';
 
 export class GoogleComponent extends Component {
   constructor(props) {
@@ -16,7 +17,7 @@ export class GoogleComponent extends Component {
       currentLocation: '',
       currentCoordinates: {},
       liStyle: '',
-      proxyUrl: ' ',
+      proxyUrl,
     };
   }
 
@@ -29,8 +30,7 @@ export class GoogleComponent extends Component {
 
     let _ico = React.createElement('img', {
       className: 'current-loc-ico',
-      src:
-        'https://www.materialui.co/materialIcons/maps/my_location_black_192x192.png',
+      src: 'https://www.materialui.co/materialIcons/maps/my_location_black_192x192.png',
     });
     let _current = React.createElement(
       'li',

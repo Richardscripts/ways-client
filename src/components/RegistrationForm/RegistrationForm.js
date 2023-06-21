@@ -48,7 +48,6 @@ class RegistrationForm extends Component {
     return (
       <div className="form-wrapper">
         <form action="#" className="LoginForm" onSubmit={this.handleSubmit}>
-          <div role="alert">{error && <p>{error}</p>}</div>
           <div>
             <Label htmlFor="registration-name-input">
               Enter your name
@@ -82,6 +81,9 @@ class RegistrationForm extends Component {
               type="password"
               required
             />
+            <div style={{ color: 'red', textAlign: 'center' }} role="alert">
+              {error && <p>{error}</p>}
+            </div>
           </div>
           <div>
             <div className="button-wrapper">
@@ -90,7 +92,7 @@ class RegistrationForm extends Component {
               <br />
               <Button className="myButton" type="submit">
                 Sign up
-              </Button>{' '}
+              </Button>
             </div>
           </div>
         </form>
