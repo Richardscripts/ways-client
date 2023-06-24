@@ -57,7 +57,7 @@ export default class TripCards extends Component {
               <div className="Activities">
                 <p>
                   Activities: <br />
-                  {this.props.activities}
+                  <span>{this.props.activities}</span>
                 </p>
               </div>
             </div>

@@ -51,6 +51,7 @@ export default class App extends Component {
       <div className="App">
         <Header loading={this.context.loading} />
         <main>
+          {this.context.loading && <div className="app-overlay"></div>}
           {hasError && <p>There was an error! Oh no!</p>}
           <ErrorBoundary>
             <Switch>

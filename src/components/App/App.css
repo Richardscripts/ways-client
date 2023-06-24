@@ -56,3 +56,10 @@ button:active {
 button:focus {
   outline: 0;
 }
+.app-overlay {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(253, 253, 253);
+  z-index: 100;
+}
