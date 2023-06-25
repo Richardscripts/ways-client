@@ -87,7 +87,7 @@ class LoginForm extends Component {
               <br />
               Username: John Rambo
               <br />
-              Password: password{' '}
+              Password: Password1!
             </p>
           </center>
         </div>

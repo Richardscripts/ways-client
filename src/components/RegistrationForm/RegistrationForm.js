@@ -96,6 +96,17 @@ class RegistrationForm extends Component {
             </div>
           </div>
         </form>
+        <div style={{ fontSize: '16px' }}>
+          <center>
+            <p>
+              <b>Demo User:</b>
+              <br />
+              Username: John Rambo
+              <br />
+              Password: Password1!{' '}
+            </p>
+          </center>
+        </div>
       </div>
     );
   }

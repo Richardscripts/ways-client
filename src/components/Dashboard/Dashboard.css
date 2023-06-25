@@ -106,7 +106,7 @@ div.bttn:focus {
   padding: 12px 0px;
   color: rgb(230, 31, 130);
   border: 2px solid rgb(230, 31, 130);
-  border-radius: 12px;
+  border-radius: 8px;
   position: relative;
   box-shadow: 0px 2px 4px rgb(195, 195, 195);
 }

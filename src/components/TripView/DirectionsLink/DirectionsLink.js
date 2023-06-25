@@ -21,18 +21,25 @@ class DirectionsLink extends Component {
       }
       return `${stopName}+${stopCity}+${stopState}%7C`;
     });
+
     return (
       <>
-        <a
-          rel="noopener noreferrer"
-          target="_blank"
-          href={`https://www.google.com/maps/dir/?api=1&map_action=map&origin=${link.join(
-            ','
-          )}`}
-        > <div>
-                <div className="myButton nav-buttons getDirectionsBtn">Get Directions</div>
-          </div>
-        </a>
+        {!!this.props.stops.length && (
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href={`https://www.google.com/maps/dir/?api=1&map_action=map&origin=${link.join(
+              ','
+            )}`}
+          >
+            {' '}
+            <div>
+              <div className="myButton nav-buttons getDirectionsBtn">
+                Get Directions
+              </div>
+            </div>
+          </a>
+        )}
       </>
     );
   }
