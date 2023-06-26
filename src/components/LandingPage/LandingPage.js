@@ -28,7 +28,6 @@ export default class LandingPage extends Component {
               />
             </div>
           </div>
-
           <section className="landing-page">
             <div className="wrapper">
               <div className="one longFade">

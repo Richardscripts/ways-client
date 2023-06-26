@@ -42,6 +42,7 @@
   margin-top: 2%;
   margin-right: 10%;
 }
+ 
 
 section.landing-page::before {
   content: '';
@@ -160,12 +161,20 @@ body {
 
 .longFade {
   animation: fadeIn;
-  animation-duration: 1.5s;
+  animation-duration: 2.5s;
 }
 
 .zoomInRight {
   animation: zoomInRight;
   animation-duration: 3.0s;
+}
+
+.linkToDashButton {
+  position: relative;
+  background-color: rgb(203 235 236);
+  width: 100vw;
+  min-height: 170px;
+  opacity: .9;
 }
 
 
