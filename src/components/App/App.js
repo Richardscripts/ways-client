@@ -52,8 +52,7 @@ export default class App extends Component {
         <Header loading={this.context.loading} />
         <main>
           {this.context.loading &&
-            window.location.pathname !== '/' &&
-            window.location.pathname !== '/add-trip' && (
+            window.location.pathname === '/dashboard' && (
               <div className="app-overlay" />
             )}
           {hasError && <p>There was an error! Oh no!</p>}
