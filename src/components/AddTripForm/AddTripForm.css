@@ -121,7 +121,7 @@
 
 .TripCard-bottom-demo {
   height: 80px;
-  width: 315px;
+  width: 341px;
   color: white;
 
   font-family: 'Fredoka One', Arial, Helvetica, sans-serif;
@@ -130,7 +130,7 @@
 
 .TripCard-bottom-info-demo {
   padding-top: 25px;
-  width: 315px;
+  width: 341px;
   display: flex;
   flex-direction: row;
   justify-content: center;

@@ -187,6 +187,7 @@ export default class AddTripForm extends React.Component {
                 <img
                   onClick={this.handleScrollLeft}
                   src={images.arrow_left}
+                  style={{ cursor: 'pointer' }}
                   alt="left arrow"
                 />
                 <div className="TripCard TripCardDemo">
@@ -226,6 +227,7 @@ export default class AddTripForm extends React.Component {
                 <img
                   onClick={this.handleScrollRight}
                   src={images.arrow_right}
+                  style={{ cursor: 'pointer' }}
                   alt="right arrow"
                 />
               </div>
