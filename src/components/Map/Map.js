@@ -2,7 +2,7 @@ import React from 'react';
 import { Map, GoogleApiWrapper } from 'google-maps-react';
 import './Map.css';
 import images from '../../assets/images/images';
-
+import config from '../../config';
 export class MapContainer extends React.Component {
   constructor(props) {
     super(props);
@@ -63,5 +63,5 @@ const containerStyle = {
 };
 
 export default GoogleApiWrapper({
-  apiKey: 'AIzaSyAqwvGJ4-Cdmo1KHAY-a8_CQpzcNPVRqY0',
+  apiKey: config.MAP_API_KEY,
 })(MapContainer);
